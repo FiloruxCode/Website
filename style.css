@@ -1,0 +1,163 @@
+
+body {
+    background-image: url('images/luyo\ yuta.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-image: url('images/game\ navbar.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-shadow: 0px 0px 10px white;
+    margin-top: auto;
+}
+
+.nav-links {
+    display: flex;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: large;
+    font-style: normal;
+}
+
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+a {
+    color: dodgerblue;
+    margin-left: 15px;
+}
+
+p, li, ol, h4 {
+    margin-left: 20px;
+}
+
+.oswald {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: larger;
+    font-style: normal;
+    color:#000080;
+    text-shadow: 0px 0px 10px white;
+    flex: 1;
+  }
+
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 10px solid red;
+    width: 50%
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button {
+    margin-left: 91%;
+    margin-bottom: 2%;
+    transform: scale(1.5);
+    border-radius: 10px;
+}
+
+.button :hover {
+    transition: 0.3s;
+    color: red;
+    border-radius: 10px;
+    font-size: large;
+}
+
+.a a:hover {
+    color: white;
+    transition: 0.3s;
+    font-size: x-large;
+}
+
+.hover :hover {
+    color: red;
+    transition: 0.3s;
+    font-size: x-large;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-image: url('images/game\ navbar.jpg');
+    color: lightblue;
+    font-size: 20px;
+    margin-top: 3%;
+    text-shadow: 0px 0px 10px white;
+}
+
+.contact-container {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #AE445A;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    text-align: center;
+    margin-left: 425px;
+    margin-top: 10%;
+}
+
+.contact-container h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    resize: none;
+}
+
+.contact-form textarea {
+    height: 100px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
